@@ -1,0 +1,23 @@
+# -----       Welcome To My Channel Muits Hel ------------- #
+# --------    Project Name : Somali - Flag Python  ---------- #
+
+# -------- How To Install Turtle In Python using windows --------#
+
+# ------- Write this command in your terminal >> PIP INSTALL Turtles Hit Enter ------ #
+
+
+import turtle # ----- First Install Turtle ------ #
+
+turtle.speed(1)
+turtle.color("white")
+turtle.bgcolor("cyan")
+turtle.fillcolor("white")
+
+turtle.begin_fill()
+
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(144)
+    
+turtle.end_fill()
+
